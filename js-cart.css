@@ -16,15 +16,6 @@ body {
         color: black;  
     }
  
-  /* Style the navbar */
-  /* .navbar {
-    position: fixed; 
-    width: 100%; 
-    top: 0;
-    z-index: 1000; 
-  } */
-
-
 /* WALLPAPER................... */
 .big-banner{
     background-image: url(images/women2.jpg);
@@ -85,70 +76,36 @@ transition: 0.3s ease;
   
 /* ....................................PRODUCT CONTAINER */
 .container{
-    /* margin-bottom: 90px; */
-    background-color: transparent;
+    background-color: transparent;  
 }
 
 .products {
     display: flex;
     flex-wrap: wrap;
     gap: 23px;
-    /* background-color: rgb(143, 25, 25); */
-    background-color: transparent;
-    padding: 20px;
-    margin-top: 20px;
 }
 
 .product{
     height: 450px;
     width: 250px;
     padding: 10px;
-    background-image: linear-gradient(to top, rgb(178, 178, 178),rgb(45, 45, 45));
-    box-shadow: 0px 0px 5px rgb(52, 52, 52);
     border-radius: 20px;
-    border: 2px solid rgb(99, 99, 99);
-    transition: 0.7s ease;
     margin-bottom: 50px;
 }
-.product:hover{
-    border: 2px solid black;
-    box-shadow: 0px 0px 10px black;
-    background-image: linear-gradient(to top, rgb(178, 178, 178),rgb(65, 65, 65));
-}
-.product:hover img{
-    width: 100%;
-    height: 250px;
-    margin: 0px;
-    margin-bottom: 10px;}
 
 .product img{
     width: 90%;
     height: 220px;
-    border-radius: 10px 10px 0px 0px;
     border: 2px solid black;       
     border-bottom: 3px solid rgb(0, 0, 0);
-    margin: auto 5% 20px 5%;
-    transition: 0.4s ease;
 }
 
 .product button{
-    /* margin-right: 10px; */
     padding: 3px 15px 3px 15px;
-    background-color: crimson;
     color: rgb(255, 255, 255);
-    float: right;
-    border-radius: 0px 0px 10px 0px;
     border: none;
-    box-shadow: 0px 0px 5px rgb(0, 0, 0);
     font-size: smaller;
-    transition: 0.5s ease;
 }
-
-.product button:hover{
-    background-color:rgba(0, 0, 0, 0.797);
-    color: rgb(255, 255, 255);
-}
-
 
 .product p{
     font-size: small;
@@ -169,14 +126,8 @@ transition: 0.3s ease;
 
 /* ....................................PRODUCT MODAL*/
 .modal{
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.888);
-    z-index: 1;
     overflow-y: scroll;
     background-image: radial-gradient( rgba(104, 104, 104, 0.174) ,black);
 }
@@ -198,20 +149,14 @@ transition: 0.3s ease;
     width: 700px;
     margin: 50px auto;
     padding: 20px 0px 0px 0px;
-    position: relative;
-    /* box-shadow: 0px 4px 8px rgb(255, 255, 255); */
     background-color: rgb(255, 255, 255);
 }
 
-
 .singleCartElement{
-    background-color: rgb(189, 189, 189);
     padding: 5px;
 }
 
 .wholeOneCart{
-    /* background-color: rgb(55, 17, 23); */
-    background-color: rgb(44, 44, 44);
     margin: 5px;
     padding: 2px;
 }
@@ -225,19 +170,12 @@ transition: 0.3s ease;
     background-color: crimson;
     color: white;
     margin: 5px;
-    transition: 0.5s ease;
-}
-
-.wholeOneCart button:hover{
-    background-color: transparent;
 }
 
 #cart-items{
     display: flex;
-    flex-wrap: wrap;
     padding: 20px;
     text-align: center;
-    justify-content: center;
 }
 
 
@@ -246,8 +184,6 @@ transition: 0.3s ease;
     top: 0;
     right: 0;
     padding: 20px;
-    cursor: pointer;
-    color: rgb(0, 0, 0);
 }
 
 .modal-content h2{
@@ -261,7 +197,6 @@ transition: 0.3s ease;
     margin: 0px;
     padding: 10px;
     color: white;
-    padding-right: 10px;
 }
 
 
@@ -269,35 +204,23 @@ transition: 0.3s ease;
 
 /* <!-- ADVERTISMENT................................................................. --> */
 .carousel-inner{
-    background-image: radial-gradient(rgb(157, 157, 157), rgb(0, 0, 0));
-    background-image: linear-gradient(to bottom, black, rgb(55, 55, 55), black );
-    /* background-image: radial-gradient(rgb(250, 0, 0), rgb(0, 0, 0)); */
+    background-image: radial-gradient(rgb(250, 0, 0), rgb(0, 0, 0));
     justify-content: center;
-    text-align: center;
     padding-top: 40px;
-    padding-bottom: 40px;
-
 }
 
 .carousel-item img{
     /* width: 100%;
     height: 100%; */
     margin-top: 30px; 
-    border-left: 5px solid rgb(255, 255, 255);
-    border-right: 5px solid rgb(255, 255, 255);
     border-radius: 30px;
-
-  }
-
-  .carousel-caption{
-    background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.261), rgb(0, 0, 0), rgba(0, 0, 0, 0.261), transparent);
   }
 
 .carousel-caption h1{
     font-weight: bold;
     font-size: 20px;
-
 }
+
 .carousel-caption p{
 font-size: smaller;
 }
@@ -314,11 +237,9 @@ font-size: smaller;
 
 .containering{
     /* background-color: pink; */
-    color: whitesmoke;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
     font-weight: bolder;
-    background-image: linear-gradient(to top, rgb(60, 60, 60), black, black);
 }
 
 .footIcons{
@@ -329,13 +250,9 @@ font-size: smaller;
     background-color: rgb(210, 19, 57);
     padding: 10px;
     border-radius: 50%;
-    color: rgb(255, 255, 255);
-    font-size: large;
-    transition: 0.5s ease;
+  
 }
-.footIcons .fab:hover{
-    background-color: rgb(120, 120, 120);
-}
+
 
 .Footparagraph{
    width: 70%;
