@@ -7,12 +7,11 @@
 <meta name="Description" content="Enter your description here"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-<link rel="stylesheet" href="H&M.css">
+<link rel="stylesheet" href="js-cart.css">
 <link rel="shortcut icon" type="image" href="images/H&M-Logo.svg.png">
-<title>H&M</title>
+<title>JS-CART</title>
 </head>
 <body>
-
 <!-- NAVBAR................................... -->
 <nav class="navbar navbar-expand-md navbar-dark" style="background-color: rgb(36, 36, 36);">
     <a class="navbar-brand" href="#"><img src="images/H&M-Logo.svg.png" style="width: 80px; height: auto; border: none;"></a>
@@ -24,24 +23,6 @@
         <li class="nav-item">
           <a class="nav-link" href="#">HOME</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#sales">SALES</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">ACCOUNT</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">STUDIO<sup style="color: rgb(191, 38, 38); font-weight: bold;">NEW</sup></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">CONTACT</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">CATEGORY</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">WOMEN</a>
-            <a class="dropdown-item" href="#">MEN</a>
-            <a class="dropdown-item" href="#">ACCESORIES</a>
           </div>
         </li>
         <li class="nav-item" id="cart-button">
@@ -49,18 +30,10 @@
         </li>
       </ul>
     </div>  
-  </nav>
-    
+</nav>  
 <!-- WALLPAPER................................ -->
 <div class="container-fluid big-banner" style="height: 550px;">
-      <div class="firstbutton" style="background-color: transparent;">
-        <h2>PRINTS FOR AUTUMN</h2>
-        <p>SHOP THE NEW COLLECTION</p>
-      <button type="button" class="btn btn-dark"><a href="#">Discover More ></a> </button>
-      <button type="button" class="btn btn-dark"><a href="#">Login</a></button>
-    </div>
-</div>
-    
+</div>  
 <!-- COLECTION........................................... -->
 <div class="jumbotron text-center heading" id="sales">
   <h1>PURSE COLLECTION</h1>
@@ -68,17 +41,15 @@
 </div>
 <div class="container">
   <div class="products" >
-      <!-- Products will be dynamically added here -->
   </div>
 </div>
-
+    
 <!-- Cart Modal -->
 <div class="modal" id="cartModal">
   <div class="modal-content">
       <span class="close" id="closeModal">&times;</span>
       <h2>YOUR CART</h2>
       <div id="cart-items">
-          <!-- Cart items will be displayed here -->
       </div>
       <div class="total">
           <p>Total Price: &#8377;<span id="cart-total">0.00</span></p>
@@ -89,21 +60,6 @@
 <footer class=" Footbackground text-center">
   <!-- Grid container -->
   <div class="containering p-4">
-
-    <section class="mb-4 Footparagraph">
-      <p>
-        "Thank you for choosing H&M! Shop sustainably, express your style, and stay connected with us for the latest trends and exclusive offers. Together, let's make fashion more inclusive, accessible, and mindful of our planet. Happy shopping!"      </p>
-    </section>
-  
-      <section class="">
-        <div class="row d-flex justify-content-center">
-          <div class="col-lg-6">
-            <div class="ratio ratio-16x9">
-              <iframe width="350" height="200" src="https://www.youtube.com/embed/It_2haNiqbs" title="Реклама H&amp;M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>            </div>
-          </div>
-        </div>
-      </section>
-     
     <section class="mb-2 mt-4 footIcons">
       <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
         ><i class="fab fa-facebook-f"></i
@@ -112,18 +68,11 @@
         ><i class="fab fa-twitter"></i
       ></a>
       <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-google"></i
-      ></a>
-      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
         ><i class="fab fa-instagram"></i
-      ></a>
-      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-linkedin-in"></i
       ></a>
     </section>
   <div class="text-center p-3" style="font-style: normal; font-weight: lighter;">
     © 2020 Copyright:
-    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">H&Mstore.com</a>
   </div>
   </div>
 </footer>
